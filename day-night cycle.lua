@@ -1,3 +1,4 @@
+--ServerScriptService -> script
 local Lighting=game:GetService("Lighting")
 
 
