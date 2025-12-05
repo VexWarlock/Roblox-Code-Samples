@@ -23,7 +23,7 @@ for _,child in pairs(Character:GetChildren()) do
 	end
 end
 
-Ccamera:GetPropertyChangedSignal("CameraSubject"):Connect(function()
+Camera:GetPropertyChangedSignal("CameraSubject"):Connect(function()
 	if Camera.CameraSubject:IsA("VehicleSeat") then
 		Camera.CameraSubject=Humanoid
 	end
