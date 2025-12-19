@@ -13,7 +13,8 @@ hrp:SetNetworkOwner(nil)
 local walkAnim = humanoid.Animator:LoadAnimation(script.Walk)
 local attackAnim = humanoid.Animator:LoadAnimation(script.Attack)
 
-local pathParams = {
+local pathParams=
+{
 	AgentHeight = 5,
 	AgentRadius = 3,
 	AgentCanJump = true,
