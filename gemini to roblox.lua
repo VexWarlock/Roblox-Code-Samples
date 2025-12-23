@@ -173,3 +173,5 @@ app.post("/ai", async (req, res) => {
 app.listen(3000, "0.0.0.0", () => {
     console.log("Gemini AI server running on port 3000 (hardcoded key)");
 });
+
+--Cloudflared tunnel (Optional): cloudflared tunnel -url https://localhost:3000
