@@ -38,8 +38,6 @@ function FPSCounter:_step(dt)
 	end
 end
 
---public API
-
 function FPSCounter:Enable(onUpdateCallback: ((number) -> ())?)
 	if self._enabled then
 		return
